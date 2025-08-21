@@ -25,7 +25,7 @@
 
 <br/>
 
-<a href="https://project-eta-tawny.vercel.app"><b>▶ Live Demo</b></a> · <a href="#-quickstart">Quickstart</a> · <a href="#-features">Features</a>
+<a href="https://pink-shield-women-cancer-treatment.vercel.app/"><b>▶ Live Demo</b></a> · <a href="#-quickstart">Quickstart</a> · <a href="#-features">Features</a>
 
 </div>
 
