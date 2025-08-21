@@ -1,49 +1,142 @@
-## 🌸 PinkShield – Women’s Cancer Care Navigator
-
 <p align="center">
-  <img src="https://img.icons8.com/?size=200&id=CD5k7Z3VAbLw&format=png&color=FF2D55" alt="PinkShield Logo" height="96" />
+  <img src="https://img.icons8.com/?size=200&id=CD5k7Z3VAbLw&format=png&color=FF2D55" alt="PinkShield Logo" height="110" />
 </p>
 
-### Modern breast-health companion app built with React, TypeScript, Firebase, and Tailwind CSS
+<div align="center">
 
-- **Prototype notice**: This is an active prototype in the building phase. You may encounter crashes or unfinished features.
-- **If login or signup doesn’t work**: Use the test credentials below to explore the app.
-  - **Email**: `sportifyenglish@gmail.com`
-  - **Password**: `Abhi@2004`
+<h2>PinkShield – Women’s Cancer Care Navigator</h2>
 
-### Repository
-- GitHub: [abhi5404/PinkShield-Women_Cancer_Treatment](https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment)
+<a href="https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment"><img alt="Repo" src="https://img.shields.io/badge/GitHub-abhi5404%2FPinkShield--Women__Cancer__Treatment-111?logo=github" /></a>
+<img alt="Built with Vite" src="https://img.shields.io/badge/Built%20with-Vite-646CFF?logo=vite&logoColor=fff" />
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=fff" />
+<img alt="Firebase" src="https://img.shields.io/badge/Firebase-12-ffca28?logo=firebase&logoColor=000" />
 
----
+<br/>
 
-## 📖 Executive Summary
-PinkShield is a women-focused cancer care platform guiding patients and families across the entire journey:
+<a href="https://project-eta-tawny.vercel.app"><b>▶ Live Demo</b></a> · <a href="#-quickstart">Quickstart</a> · <a href="#-features">Features</a> · <a href="#-architecture">Architecture</a>
 
-- Risk awareness and prevention
-- Symptom logging and diary
-- Diagnostic pathway suggestions
-- AI-powered triage and hospital recommendations
-- Live ambulance tracking with Google Maps
-- Post-chemo rehab and recovery support
+</div>
 
----
+<hr/>
 
-## 👥 Who Uses It?
-- Patients and Families
-- Hospitals and Doctors
-- NGOs and Insurers
-- Researchers and Policy Makers
+### Why PinkShield?
 
----
+PinkShield is a women-first cancer care companion that blends AI guidance, crisis navigation, and community support into a single seamless journey.
 
-## 🚀 What’s New in 2.0
-- Stronger, fewer AI engines (multi-solution design)
-- Ambulance and Rehab suite powered by Google Maps APIs
-- Clearer patient navigation → earlier diagnosis and lower costs
+> Family Risk → Prevention → Symptom Diary → AI Pathway → Ambulance (Maps) → Hospital → Treatment → Chemo Rehab → Recovery & Community
+
+> Prototype notice: This project is in active development. You may encounter crashes or unfinished features.
+
+> If login or signup doesn’t work, use:
+> - Email: `sportifyenglish@gmail.com`
+> - Password: `Abhi@2004`
 
 ---
 
-## Tech stack
+## 📚 Table of Contents
+
+1. Overview
+2. Features
+3. Architecture
+4. Project Structure
+5. Quickstart
+6. Tech Stack
+7. Security & Privacy
+8. Roadmap
+9. Contributing
+10. License
+
+---
+
+## 🧭 Overview
+
+PinkShield guides patients and families from early awareness to recovery: prevention nudges, AI symptom triage, hospital/ambulance navigation with Maps, and supportive community tools.
+
+---
+
+## ✨ Features
+
+- Patient & Family: prevention nudges, symptom diary with AI alerts, caregiver dashboard
+- Emergency & Rehab: live ambulance tracking, SOS dispatch, hospital finder, rehab locator
+- AI Engines: emergency triage, bed/resource predictor, pathway and report simplifier
+- Modern UX: Tailwind design system, micro-animations, accessible components
+
+---
+
+## 🏗 Architecture
+
+```mermaid
+flowchart LR
+  A[React + TS (Vite)] -- Router/Forms/State --> B[UI Modules]
+  B --> C[Firebase Auth]
+  B --> D[Firestore]
+  B --> E[Analytics]
+  B --> F[Maps SDK / APIs]
+  D -->|Realtime/Queries| B
+  C -->|JWT Session| B
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+project/
+  ENVIRONMENT_SETUP.md
+  FIREBASE_SETUP.md
+  index.html
+  package.json
+  postcss.config.js
+  tailwind.config.js
+  tsconfig*.json
+  vite.config.ts
+  src/
+    App.tsx
+    main.tsx
+    index.css
+    config/
+      environment.ts
+    lib/
+      firebase.ts
+    hooks/
+      useAuth.ts
+    components/
+      Layout.tsx
+      ProtectedRoute.tsx
+    pages/
+      LandingPage.tsx
+      Auth.tsx
+      Dashboard.tsx
+      AIChat.tsx
+      HealthTracker.tsx
+      Community.tsx
+```
+
+---
+
+## ⚡ Quickstart
+
+### Clone
+```bash
+git clone https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment.git
+cd PinkShield-Women_Cancer_Treatment
+```
+
+### Install & Run
+```bash
+npm install
+npm run dev
+```
+
+### Build & Preview
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+## 🧰 Tech Stack
 
 <p>
   <img alt="React" src="https://img.shields.io/badge/React-18-20232a?style=for-the-badge&logo=react&logoColor=61DAFB" />
@@ -63,156 +156,32 @@ PinkShield is a women-focused cancer care platform guiding patients and families
 
 ---
 
-## ✨ Core Features
+## 🔐 Security & Privacy
 
-### Patient and Family
-- Family Tree Cancer Risk (BRCA/Lynch detection)
-- Prevention and Early Signs (Pap smear, HPV, mammogram reminders)
-- Symptom and Side-Effect Diary with AI alerts
-- Insurance and Financial Support (Govt. schemes, NGO help)
-- Community and Mental Health (groups, mentors, mindfulness modules)
-- AI Treatment Coach (explains biopsy/chemo in simple language)
-- Clinical Trial Finder (local/global trial listings)
-- Digital Twin Health Record (shareable reports and scans)
-- Voice and Local Language Support
-- Caregiver Dashboard (appointments, meds, progress tracking)
-
-### Emergency and Rehab Suite (Maps-Based)
-- Ambulance Live Tracking – Google Maps ETA and turn-by-turn routing
-- SOS Dispatch – Nearest ambulance auto-assigned with tracking link
-- Hospital Finder – Nearest hospitals with directions and ETA
-- Rehab and Chemo Centre Locator – Filtered by govt./private/NGO
-
-### AI Engines
-1. AI Emergency Triage → Classifies urgency (Critical / Moderate / Mild)
-2. AI Bed and Resource Predictor → Predicts ICU/bed availability
-3. AI Diagnostic Pathway and Report Simplifier → Suggests next tests and explains jargon
+- Explicit consent before storing medical data
+- Encryption at rest and in transit
+- Role-based access control (patient, caregiver, doctor, admin)
+- De-identified data for research (where applicable)
 
 ---
 
-## Project structure
+## 🗺 Roadmap
 
-```text
-project/
-  ENVIRONMENT_SETUP.md
-  FIREBASE_SETUP.md
-  index.html
-  package.json
-  postcss.config.js
-  tailwind.config.js
-  tsconfig*.json
-  vite.config.ts
-  src/
-    App.tsx
-    main.tsx
-    index.css
-    config/
-      environment.ts            # Firebase env config (pre-configured)
-    lib/
-      firebase.ts               # Firebase initialization (Auth, Firestore, Analytics)
-    hooks/
-      useAuth.ts                # Auth hook (signIn/signUp)
-    components/
-      Layout.tsx
-      ProtectedRoute.tsx
-    pages/
-      LandingPage.tsx
-      Auth.tsx
-      Dashboard.tsx
-      AIChat.tsx
-      HealthTracker.tsx
-      Community.tsx
-```
+- [ ] Appointments module
+- [ ] Support resources hub
+- [ ] Additional analytics and QA hardening
+- [ ] Expand AI triage and pathway engines
+- [ ] Native Android/iOS app
+- [ ] Offline rural mode
 
 ---
 
-## Getting started
+## 🤝 Contributing
 
-### Clone
-```bash
-git clone https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment.git
-cd PinkShield-Women_Cancer_Treatment
-```
-
-### Prerequisites
-- Node.js 18+
-- npm 9+
-
-### Installation
-```bash
-npm install
-```
-
-### Development
-```bash
-npm run dev
-```
-
-### Production build
-```bash
-npm run build
-npm run preview
-```
+Contributions are welcome! Fork the repo, create a feature branch, and submit a PR.
 
 ---
 
-## Authentication notes
-
-- Normal signup/login uses Firebase Authentication.
-- If login or signup fails in this prototype, use the test account:
-  - **Email**: `sportifyenglish@gmail.com`
-  - **Password**: `Abhi@2004`
-
-> Accounts and data may be periodically reset during development.
-
----
-
-## Firebase configuration
-
-- Firebase is already configured in `src/config/environment.ts` and initialized in `src/lib/firebase.ts`.
-- See `FIREBASE_SETUP.md` for details about services and collections.
-
----
-
-## Scripts
-
-```json
-{
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  }
-}
-```
-
----
-
-## Roadmap
-
-- Appointments module
-- Support resources hub
-- Additional analytics and QA hardening
-- Expand AI triage and pathway engines
-- Native Android/iOS app
-- Offline rural mode
-
----
-
-## Contributing
-
-We welcome contributions from developers, NGOs, and healthcare experts. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## License
+## 📄 License
 
 MIT License – free to use with attribution.
-
----
-
-## Acknowledgements
-
-- Built by `abhi5404` with ❤️ using React, TypeScript, Firebase, and Tailwind CSS.
-- Logo displayed above is a placeholder. To use a custom brand mark, replace it with your own and/or add an image at `assets/pinkshield-logo.png` and reference it here.
