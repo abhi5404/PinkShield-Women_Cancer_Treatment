@@ -1,15 +1,24 @@
 <p align="center">
-  <img src="https://img.icons8.com/?size=200&id=CD5k7Z3VAbLw&format=png&color=FF2D55" alt="PinkShield Logo" height="110" />
+  <svg width="820" height="140" viewBox="0 0 820 140" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#FF2D55"/>
+        <stop offset="100%" stop-color="#8B5CF6"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="820" height="140" rx="18" fill="url(#g)"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="32">PinkShield – Women’s Cancer Care Navigator</text>
+    <text x="50%" y="78%" dominant-baseline="middle" text-anchor="middle" fill="#fff" opacity="0.95" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-size="16">AI guidance • Maps navigation • Community & Recovery</text>
+  </svg>
 </p>
 
 <div align="center">
 
-<h2>PinkShield – Women’s Cancer Care Navigator</h2>
-
-<a href="https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment"><img alt="Repo" src="https://img.shields.io/badge/GitHub-abhi5404%2FPinkShield--Women__Cancer__Treatment-111?logo=github" /></a>
-<img alt="Built with Vite" src="https://img.shields.io/badge/Built%20with-Vite-646CFF?logo=vite&logoColor=fff" />
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=fff" />
-<img alt="Firebase" src="https://img.shields.io/badge/Firebase-12-ffca28?logo=firebase&logoColor=000" />
+<a href="https://img.shields.io"><img alt="PinkShield" src="https://img.shields.io/badge/PinkShield-Women%20Cancer%20Navigator-?style=for-the-badge&colorA=FF2D55&colorB=8B5CF6" /></a>
+<a href="https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment"><img alt="Repo" src="https://img.shields.io/badge/GitHub-Repository-111?logo=github&style=for-the-badge" /></a>
+<img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=fff&style=for-the-badge" />
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=fff&style=for-the-badge" />
+<img alt="Firebase" src="https://img.shields.io/badge/Firebase-12-ffca28?logo=firebase&logoColor=000&style=for-the-badge" />
 
 <br/>
 
@@ -67,13 +76,13 @@ PinkShield guides patients and families from early awareness to recovery: preven
 
 ```mermaid
 flowchart LR
-  A[React + TS (Vite)] -- Router/Forms/State --> B[UI Modules]
-  B --> C[Firebase Auth]
-  B --> D[Firestore]
-  B --> E[Analytics]
-  B --> F[Maps SDK / APIs]
-  D -->|Realtime/Queries| B
-  C -->|JWT Session| B
+    A[React + TypeScript (Vite)] --> B[UI Modules]
+    B --> C[Firebase Auth]
+    B --> D[Firestore]
+    B --> E[Analytics]
+    B --> F[Google Maps APIs]
+    D -->|Realtime / Queries| B
+    C -->|JWT Session| B
 ```
 
 ---
@@ -81,35 +90,34 @@ flowchart LR
 ## 📂 Project Structure
 
 ```text
-project/
-  ENVIRONMENT_SETUP.md
-  FIREBASE_SETUP.md
-  index.html
-  package.json
-  postcss.config.js
-  tailwind.config.js
-  tsconfig*.json
-  vite.config.ts
-  src/
-    App.tsx
-    main.tsx
-    index.css
-    config/
-      environment.ts
-    lib/
-      firebase.ts
-    hooks/
-      useAuth.ts
-    components/
-      Layout.tsx
-      ProtectedRoute.tsx
-    pages/
-      LandingPage.tsx
-      Auth.tsx
-      Dashboard.tsx
-      AIChat.tsx
-      HealthTracker.tsx
-      Community.tsx
+📦 project/
+├─ 🧭 ENVIRONMENT_SETUP.md
+├─ 🔥 FIREBASE_SETUP.md
+├─ 🧱 index.html
+├─ 📦 package.json
+├─ 🎨 tailwind.config.js
+├─ ⚙️ vite.config.ts
+├─ 🧑‍💻 tsconfig*.json
+└─ 📁 src/
+   ├─ 🚪 App.tsx                      # Router + root composition
+   ├─ 🚀 main.tsx                     # App bootstrap (Vite entry)
+   ├─ 🎯 index.css                    # Global styles (Tailwind)
+   ├─ 🧩 components/                 # Reusable UI primitives
+   │  ├─ Layout.tsx
+   │  └─ ProtectedRoute.tsx
+   ├─ 🛠 hooks/                       # App-level hooks
+   │  └─ useAuth.ts
+   ├─ ⚙️ config/                      # Static configuration
+   │  └─ environment.ts
+   ├─ 🔌 lib/                         # Integrations & SDK setup
+   │  └─ firebase.ts                 # Auth, Firestore, Analytics
+   └─ 📚 pages/                      # Route pages
+      ├─ LandingPage.tsx
+      ├─ Auth.tsx
+      ├─ Dashboard.tsx
+      ├─ AIChat.tsx
+      ├─ HealthTracker.tsx
+      └─ Community.tsx
 ```
 
 ---
