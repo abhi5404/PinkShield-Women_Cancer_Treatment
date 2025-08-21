@@ -1,165 +1,160 @@
-🌸 PinkShield – Women’s Cancer Care Navigator
+# 🌸 PinkShield – Women’s Cancer Care Navigator  
+**GenAI DxPath 2.0 Prototype**  
 
-Empowering women’s cancer care through AI, maps, and community support.
+Empowering women’s cancer care through **AI navigation, Google Maps integration, and supportive community tools**.  
 
-PinkShield is a women-focused cancer care platform that guides patients and families across the entire journey – from risk awareness and symptom logging to diagnosis, treatment, emergency ambulance dispatch, and post-chemo rehab.
+---
 
-The project combines:
+## 📖 Executive Summary  
+PinkShield is a **women-focused cancer care platform** guiding patients and families across the entire journey:  
 
-🚑 Google Maps APIs → Ambulance live tracking & rehab locator
+- Risk awareness & prevention  
+- Symptom logging & diary  
+- Diagnostic pathway suggestions  
+- AI-powered triage & hospital recommendations  
+- Live ambulance tracking with Google Maps  
+- Post-chemo rehab & recovery support  
 
-🧠 Three powerful AI engines → Triage, hospital resource prediction, and diagnostic pathway generation
+---
 
-💙 Supportive ecosystem → Family dashboards, insurance help, community groups, and mental health support
+## 👥 Who Uses It?  
+- Patients & Families  
+- Hospitals & Doctors  
+- NGOs & Insurers  
+- Researchers & Policy Makers  
 
-⚠️ Prototype Note: As this project is in active development, login/signup may fail. In such cases, use this demo account:
+---
 
-Email: sportifyenglish@gmail.com
+## 🚀 What’s New in 2.0  
+- Stronger, fewer AI engines (multi-solution design)  
+- Ambulance & Rehab suite powered by **Google Maps APIs**  
+- Clearer patient navigation → earlier diagnosis & lower costs  
 
-Password: Abhi@2004
+---
 
-✨ Executive Summary
+## ⚠️ Prototype Login Info  
+If **login/signup does not work**, use the test account:  
 
-Who uses it? Patients & families, hospitals, NGOs, insurers, researchers
+- **Email:** `sportifyenglish@gmail.com`  
+- **Password:** `Abhi@2004`  
 
-What’s new? Stronger, fewer AI engines + Maps-based ambulance & rehab suite
+*(This is a prototype in the building phase, so authentication may occasionally fail.)*  
 
-Why it matters? Earlier diagnosis, faster emergency response, smoother recovery, and lower costs
+---
 
-MVP Focus: Patient app + Maps tracking + Triage AI + Hospital dashboard
+## 🩺 The Problem  
+- **Late Diagnosis** → Vague symptoms & complex medical language  
+- **Fragmented Care** → Patients juggle multiple hospitals & records  
+- **Emergency Delays** → Uncertainty in ambulance arrival & right hospital choice  
+- **Weak Recovery Support** → Diet, rehab & mental health often missing  
 
-🚨 The Problem
+---
 
-Late diagnosis due to vague symptoms and complex medical language
+## 💡 The Solution  
+A **single cancer care navigator** for women:  
 
-Fragmented care across hospitals, labs, and records
+`Family Risk → Prevention → Symptom Diary → AI Pathway → Ambulance (Maps) → Hospital → Treatment → Chemo Rehab (Maps) → Recovery & Community`  
 
-Emergency delays in ambulance arrival & hospital selection
+---
 
-Weak post-treatment support (diet, mental health, structured rehab)
+## ✨ Core Features  
 
-💡 The Solution
+### 👩‍⚕️ Patient & Family  
+- Family Tree Cancer Risk (BRCA/Lynch detection)  
+- Prevention & Early Signs (Pap smear, HPV, mammogram reminders)  
+- Symptom & Side-Effect Diary with AI alerts  
+- Insurance & Financial Support (Govt. schemes, NGO help)  
+- Community & Mental Health (groups, mentors, mindfulness modules)  
+- AI Treatment Coach (explains biopsy/chemo in simple language)  
+- Clinical Trial Finder (local/global trial listings)  
+- Digital Twin Health Record (shareable reports & scans)  
+- Voice & Local Language Support  
+- Caregiver Dashboard (appointments, meds, progress tracking)  
 
-A single cancer care navigator for women:
-Risk → Prevention → Symptom diary → Diagnosis → Ambulance (Maps) → Hospital → Treatment → Chemo rehab (Maps) → Recovery & community
+---
 
-🧩 Core Features
-👩‍⚕️ Patient & Family
+### 🚑 Emergency & Rehab Suite (Maps-Based)  
+- **Ambulance Live Tracking** – Google Maps ETA & turn-by-turn routing  
+- **SOS Dispatch** – Nearest ambulance auto-assigned with tracking link  
+- **Hospital Finder** – Nearest hospitals + directions + ETA  
+- **Rehab & Chemo Centre Locator** – Filtered by govt./private/NGO  
 
-Family Tree Cancer Risk – Detects inherited patterns (BRCA/Lynch)
+---
 
-Prevention & Early Signs – Lifestyle tips, reminders for Pap smear/mammogram/HPV vaccine
+### 🤖 AI Engines  
+1. **AI Emergency Triage** → Classifies urgency (Critical / Moderate / Mild)  
+2. **AI Bed & Resource Predictor** → Predicts ICU/bed availability  
+3. **AI Diagnostic Pathway & Report Simplifier** → Suggests next tests & explains jargon  
 
-Symptom & Side-Effect Diary – Logs with AI alerts
+---
 
-Money & Insurance Help – Govt. schemes, NGO support, insurance claims
+## 🏗️ Tech Stack  
 
-Community & Mental Health – Anonymous groups, mentors, CBT & mindfulness
+### Frontend  
+- React + TypeScript (Vite)  
+- TailwindCSS  
+- React Native (planned for mobile)  
+- Google Maps SDK  
 
-AI Treatment Coach – Explains biopsy/surgery/chemo in plain language
+### Backend  
+- Node.js / Express (or Firebase Functions)  
+- REST / GraphQL APIs  
+- Role-based access control  
 
-Clinical Trial Finder – Local/global trial listings
+### Database & Integrations  
+- Firestore (patients, diaries, appointments)  
+- Firebase Realtime DB (ambulance tracking)  
+- Firebase Storage (reports & scans)  
+- Google Maps API (Directions, Places)  
+- Telehealth APIs (Jitsi/Zoom)  
+- FCM Notifications  
 
-Digital Twin Health Record – Shareable medical file to avoid duplicate tests
+---
 
-Voice & Local Language – Regional language support with voice input/output
+## 📂 Project Structure  
 
-Caregiver Dashboard – Family tracks meds, appointments, progress
-
-🚑 Maps-Based Emergency & Rehab (Non-AI)
-
-Ambulance Live Tracking – Google Maps with ETA & route
-
-SOS & Dispatch – One-click ambulance assignment & family tracking link
-
-Nearest Hospital Finder – Closest hospital + bed availability prediction
-
-Rehab & Chemo Centre Locator – Filters for govt./private/NGO centres
-
-🤖 Stronger, Fewer AI Engines
-
-AI Emergency Triage – Classifies urgency (Critical / Moderate / Mild)
-
-AI Hospital Bed Predictor – Predicts bed/ICU availability from hospital feeds
-
-AI Diagnostic Pathway & Report Simplifier – Suggests next tests & explains results
-
-🏗️ Tech Stack
-Frontend
-
-⚛️ React + TypeScript (Vite)
-
-📱 React Native (mobile – planned)
-
-🎨 TailwindCSS
-
-🌐 Google Maps SDK
-
-🔒 Secure Auth + Multilingual UI
-
-Backend
-
-🟩 Node.js / Express (or Firebase Functions)
-
-🔗 REST / GraphQL APIs
-
-🔑 Role-based access control
-
-Databases & Integrations
-
-📂 Firestore (patients, diaries, appointments)
-
-📡 Realtime DB (ambulance location)
-
-🗂️ Firebase Storage (reports, scans)
-
-📍 Google Maps (Directions / Places)
-
-🔔 FCM Notifications
-
-📹 Telehealth APIs (Jitsi/Zoom)
-
-💳 Payments (optional)
-
-📂 Project Structure
+```bash
 src/
+│
 ├── components/
 │   ├── Layout.tsx
 │   └── ProtectedRoute.tsx
+│
 ├── config/
 │   └── environment.ts
+│
 ├── hooks/
 │   └── useAuth.ts
+│
 ├── lib/
 │   └── firebase.ts
+│
 ├── pages/
 │   ├── AIChat.tsx
 │   ├── Auth.tsx
 │   ├── Community.tsx
 │   ├── Dashboard.tsx
 │   ├── HealthTracker.tsx
-│   ├── LandingPage.tsx
+│   └── LandingPage.tsx
+│
 ├── App.tsx
 ├── index.css
 ├── main.tsx
-├── vite-env.d.ts
-.env.example
-.gitignore
-ENVIRONMENT_SETUP.md
-FIREBASE_SETUP.md
-eslint.config.js
-index.html
-package.json
-postcss.config.js
-tailwind.config.js
-tsconfig.json
+└── vite-env.d.ts
+
+Other files:
+.env.example  
+FIREBASE_SETUP.md  
+ENVIRONMENT_SETUP.md  
+package.json  
+tailwind.config.js  
 vite.config.ts
 
 ⚙️ Setup & Installation
 
 Clone repo
 
-git clone https://github.com/abhi5404/pinkshield.git
+git clone (https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment)
 cd pinkshield
 
 
@@ -172,7 +167,7 @@ Configure Firebase
 
 Copy .env.example → .env
 
-Add your Firebase project keys (see FIREBASE_SETUP.md)
+Add Firebase keys (see FIREBASE_SETUP.md)
 
 Run locally
 
@@ -180,39 +175,40 @@ npm run dev
 
 
 Login Prototype
-
-If signup/login fails, use:
-
-Email: sportifyenglish@gmail.com
-
-Password: Abhi@2004
+If auth fails → use test credentials above.
 
 🔒 Privacy, Consent & Safety
 
-✅ Explicit consent before storing medical data
+Explicit patient consent before storing medical data
 
-🔐 Encrypted at rest & transit
+Encryption at rest & transit
 
-👩‍⚕️ Role-based access (patient, caregiver, doctor, admin)
+Role-based access control (patient / caregiver / doctor / admin)
 
-🧾 De-identified data for research
+De-identified data for research
 
-⚠️ Disclaimer: AI assists, doctors decide. Emergency numbers always visible.
+Disclaimer: AI assists, doctors decide; emergency numbers always visible
 
 📌 Roadmap
 
- Expand AI triage engine
+ Expand AI triage & pathway engines
 
- Add predictive analytics for relapse monitoring
+ Predictive relapse monitoring
 
  Native Android/iOS app
 
- Offline mode for rural areas
+ Offline rural mode
 
 🤝 Contributing
 
-We welcome contributions from developers, researchers, NGOs, and healthcare professionals. Please open an issue or PR to discuss changes.
+We welcome contributions from developers, NGOs, and healthcare experts.
+
+Fork the repo
+
+Create a feature branch
+
+Submit a PR
 
 📜 License
 
-MIT License – free to use and modify with attribution.
+MIT License – free to use with attribution.
