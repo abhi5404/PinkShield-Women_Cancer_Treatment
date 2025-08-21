@@ -11,6 +11,9 @@
   - **Email**: `sportifyenglish@gmail.com`
   - **Password**: `Abhi@2004`
 
+### Repository
+- GitHub: [abhi5404/PinkShield-Women_Cancer_Treatment](https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment)
+
 ---
 
 ## Tech stack
@@ -81,6 +84,12 @@ project/
 ---
 
 ## Getting started
+
+### Clone
+```bash
+git clone https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment.git
+cd PinkShield-Women_Cancer_Treatment
+```
 
 ### Prerequisites
 - Node.js 18+
