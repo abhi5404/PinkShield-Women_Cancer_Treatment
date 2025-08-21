@@ -1,24 +1,15 @@
+## PinkShield – Women’s Cancer Care Navigator
+
 <p align="center">
-  <svg width="820" height="140" viewBox="0 0 820 140" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#FF2D55"/>
-        <stop offset="100%" stop-color="#8B5CF6"/>
-      </linearGradient>
-    </defs>
-    <rect x="0" y="0" width="820" height="140" rx="18" fill="url(#g)"/>
-    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="32">PinkShield – Women’s Cancer Care Navigator</text>
-    <text x="50%" y="78%" dominant-baseline="middle" text-anchor="middle" fill="#fff" opacity="0.95" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-size="16">AI guidance • Maps navigation • Community & Recovery</text>
-  </svg>
+  <img src="assets/pinkshield-logo.png" alt="PinkShield Logo" height="120" />
 </p>
 
 <div align="center">
 
-<a href="https://img.shields.io"><img alt="PinkShield" src="https://img.shields.io/badge/PinkShield-Women%20Cancer%20Navigator-?style=for-the-badge&colorA=FF2D55&colorB=8B5CF6" /></a>
-<a href="https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment"><img alt="Repo" src="https://img.shields.io/badge/GitHub-Repository-111?logo=github&style=for-the-badge" /></a>
+<a href="https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Repository-111?logo=github&style=for-the-badge" /></a>
 <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=fff&style=for-the-badge" />
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=fff&style=for-the-badge" />
-<img alt="Firebase" src="https://img.shields.io/badge/Firebase-12-ffca28?logo=firebase&logoColor=000&style=for-the-badge" />
+<img alt="Firebase" src="https://img.shields.io/badge/Firebase-12-FFCA28?logo=firebase&logoColor=000&style=for-the-badge" />
 
 <br/>
 
@@ -26,45 +17,38 @@
 
 </div>
 
-<hr/>
+---
 
-### Why PinkShield?
-
-PinkShield is a women-first cancer care companion that blends AI guidance, crisis navigation, and community support into a single seamless journey.
-
-> Family Risk → Prevention → Symptom Diary → AI Pathway → Ambulance (Maps) → Hospital → Treatment → Chemo Rehab → Recovery & Community
-
-> Prototype notice: This project is in active development. You may encounter crashes or unfinished features.
-
-> If login or signup doesn’t work, use:
-> - Email: `sportifyenglish@gmail.com`
-> - Password: `Abhi@2004`
+### Prototype notice
+- This is an active prototype. Some features may be unstable.
+- If login/signup fails, use the test account:
+  - Email: `sportifyenglish@gmail.com`
+  - Password: `Abhi@2004`
 
 ---
 
 ## 📚 Table of Contents
-
-1. Overview
-2. Features
-3. Architecture
-4. Project Structure
-5. Quickstart
-6. Tech Stack
-7. Security & Privacy
-8. Roadmap
-9. Contributing
-10. License
+- Overview
+- Features
+- Architecture
+- Project Structure
+- Quickstart
+- Tech Stack
+- Security & Privacy
+- Roadmap
+- Contributing
+- License
 
 ---
 
 ## 🧭 Overview
+PinkShield is a women-first cancer care companion blending AI guidance, crisis navigation, and community support into a single seamless journey.
 
-PinkShield guides patients and families from early awareness to recovery: prevention nudges, AI symptom triage, hospital/ambulance navigation with Maps, and supportive community tools.
+> Family Risk → Prevention → Symptom Diary → AI Pathway → Ambulance (Maps) → Hospital → Treatment → Chemo Rehab → Recovery & Community
 
 ---
 
 ## ✨ Features
-
 - Patient & Family: prevention nudges, symptom diary with AI alerts, caregiver dashboard
 - Emergency & Rehab: live ambulance tracking, SOS dispatch, hospital finder, rehab locator
 - AI Engines: emergency triage, bed/resource predictor, pathway and report simplifier
@@ -75,14 +59,12 @@ PinkShield guides patients and families from early awareness to recovery: preven
 ## 🏗 Architecture
 
 ```mermaid
-flowchart LR
-    A[React + TypeScript (Vite)] --> B[UI Modules]
-    B --> C[Firebase Auth]
-    B --> D[Firestore]
-    B --> E[Analytics]
-    B --> F[Google Maps APIs]
-    D -->|Realtime / Queries| B
-    C -->|JWT Session| B
+graph LR
+  A[React + TypeScript (Vite)] --> B[UI Modules]
+  B --> C[Firebase Auth]
+  B --> D[Firestore]
+  B --> E[Analytics]
+  B --> F[Google Maps APIs]
 ```
 
 ---
@@ -165,7 +147,6 @@ npm run preview
 ---
 
 ## 🔐 Security & Privacy
-
 - Explicit consent before storing medical data
 - Encryption at rest and in transit
 - Role-based access control (patient, caregiver, doctor, admin)
@@ -174,7 +155,6 @@ npm run preview
 ---
 
 ## 🗺 Roadmap
-
 - [ ] Appointments module
 - [ ] Support resources hub
 - [ ] Additional analytics and QA hardening
@@ -185,11 +165,9 @@ npm run preview
 ---
 
 ## 🤝 Contributing
-
 Contributions are welcome! Fork the repo, create a feature branch, and submit a PR.
 
 ---
 
 ## 📄 License
-
-MIT License – free to use with attribution.
+MIT License – free to use with attribution. 
