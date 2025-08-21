@@ -1,7 +1,16 @@
 ## PinkShield – Women’s Cancer Care Navigator
 
 <p align="center">
-  <img src="assets/pinkshield-logo.png" alt="PinkShield Logo" height="120" />
+  <svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="ps" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FF2D55"/>
+        <stop offset="100%" stop-color="#8B5CF6"/>
+      </linearGradient>
+    </defs>
+    <rect x="10" y="10" width="120" height="120" rx="28" fill="url(#ps)"/>
+    <path d="M70 45c10 7 18 9 25 10v20c0 14-9 25-25 30c-16-5-25-16-25-30V55c7-1 15-3 25-10z" fill="none" stroke="#0B0B0B" stroke-width="6" stroke-linejoin="round"/>
+  </svg>
 </p>
 
 <div align="center">
@@ -10,10 +19,13 @@
 <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=fff&style=for-the-badge" />
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=fff&style=for-the-badge" />
 <img alt="Firebase" src="https://img.shields.io/badge/Firebase-12-FFCA28?logo=firebase&logoColor=000&style=for-the-badge" />
+<img alt="Stars" src="https://img.shields.io/github/stars/abhi5404/PinkShield-Women_Cancer_Treatment?style=for-the-badge" />
+<img alt="Issues" src="https://img.shields.io/github/issues/abhi5404/PinkShield-Women_Cancer_Treatment?style=for-the-badge" />
+<img alt="Last Commit" src="https://img.shields.io/github/last-commit/abhi5404/PinkShield-Women_Cancer_Treatment?style=for-the-badge" />
 
 <br/>
 
-<a href="https://project-eta-tawny.vercel.app"><b>▶ Live Demo</b></a> · <a href="#-quickstart">Quickstart</a> · <a href="#-features">Features</a> · <a href="#-architecture">Architecture</a>
+<a href="https://project-eta-tawny.vercel.app"><b>▶ Live Demo</b></a> · <a href="#-quickstart">Quickstart</a> · <a href="#-features">Features</a>
 
 </div>
 
@@ -30,7 +42,6 @@
 ## 📚 Table of Contents
 - Overview
 - Features
-- Architecture
 - Project Structure
 - Quickstart
 - Tech Stack
@@ -54,22 +65,25 @@ PinkShield is a women-first cancer care companion blending AI guidance, crisis n
 - AI Engines: emergency triage, bed/resource predictor, pathway and report simplifier
 - Modern UX: Tailwind design system, micro-animations, accessible components
 
----
+<details>
+  <summary><b>Feature deep dive</b></summary>
 
-## 🏗 Architecture
+  - Mammogram/HPV/Pap reminders with friendly nudges
+  - Symptom diary with severity trends and insights
+  - AI report simplifier and triage guidance
+  - Google Maps powered hospital finder and ETA
+  - Community posts, reactions, and supportive tips
 
-```mermaid
-graph LR
-  A[React + TypeScript (Vite)] --> B[UI Modules]
-  B --> C[Firebase Auth]
-  B --> D[Firestore]
-  B --> E[Analytics]
-  B --> F[Google Maps APIs]
-```
+</details>
 
 ---
+
+ 
 
 ## 📂 Project Structure
+
+<details open>
+  <summary><b>Folders and key files</b></summary>
 
 ```text
 📦 project/
@@ -101,6 +115,8 @@ graph LR
       ├─ HealthTracker.tsx
       └─ Community.tsx
 ```
+
+</details>
 
 ---
 
