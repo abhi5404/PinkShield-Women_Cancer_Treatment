@@ -1,4 +1,4 @@
-## PinkShield
+## 🌸 PinkShield – Women’s Cancer Care Navigator
 
 <p align="center">
   <img src="https://img.icons8.com/?size=200&id=CD5k7Z3VAbLw&format=png&color=FF2D55" alt="PinkShield Logo" height="96" />
@@ -13,6 +13,33 @@
 
 ### Repository
 - GitHub: [abhi5404/PinkShield-Women_Cancer_Treatment](https://github.com/abhi5404/PinkShield-Women_Cancer_Treatment)
+
+---
+
+## 📖 Executive Summary
+PinkShield is a women-focused cancer care platform guiding patients and families across the entire journey:
+
+- Risk awareness and prevention
+- Symptom logging and diary
+- Diagnostic pathway suggestions
+- AI-powered triage and hospital recommendations
+- Live ambulance tracking with Google Maps
+- Post-chemo rehab and recovery support
+
+---
+
+## 👥 Who Uses It?
+- Patients and Families
+- Hospitals and Doctors
+- NGOs and Insurers
+- Researchers and Policy Makers
+
+---
+
+## 🚀 What’s New in 2.0
+- Stronger, fewer AI engines (multi-solution design)
+- Ambulance and Rehab suite powered by Google Maps APIs
+- Clearer patient navigation → earlier diagnosis and lower costs
 
 ---
 
@@ -36,14 +63,30 @@
 
 ---
 
-## Features
+## ✨ Core Features
 
-- **Authentication**: Email/password signup and login with Firebase Auth
-- **Dashboard**: Personalized overview after login
-- **AI Chat**: Conversational support interface for guidance and FAQs
-- **Health Tracker**: Log symptoms, severities, and notes over time
-- **Community**: Space for posts and discussions
-- **Modern UI**: Tailwind CSS, animations with Framer Motion, icons via Lucide
+### Patient and Family
+- Family Tree Cancer Risk (BRCA/Lynch detection)
+- Prevention and Early Signs (Pap smear, HPV, mammogram reminders)
+- Symptom and Side-Effect Diary with AI alerts
+- Insurance and Financial Support (Govt. schemes, NGO help)
+- Community and Mental Health (groups, mentors, mindfulness modules)
+- AI Treatment Coach (explains biopsy/chemo in simple language)
+- Clinical Trial Finder (local/global trial listings)
+- Digital Twin Health Record (shareable reports and scans)
+- Voice and Local Language Support
+- Caregiver Dashboard (appointments, meds, progress tracking)
+
+### Emergency and Rehab Suite (Maps-Based)
+- Ambulance Live Tracking – Google Maps ETA and turn-by-turn routing
+- SOS Dispatch – Nearest ambulance auto-assigned with tracking link
+- Hospital Finder – Nearest hospitals with directions and ETA
+- Rehab and Chemo Centre Locator – Filtered by govt./private/NGO
+
+### AI Engines
+1. AI Emergency Triage → Classifies urgency (Critical / Moderate / Mild)
+2. AI Bed and Resource Predictor → Predicts ICU/bed availability
+3. AI Diagnostic Pathway and Report Simplifier → Suggests next tests and explains jargon
 
 ---
 
@@ -151,12 +194,21 @@ npm run preview
 - Appointments module
 - Support resources hub
 - Additional analytics and QA hardening
+- Expand AI triage and pathway engines
+- Native Android/iOS app
+- Offline rural mode
 
 ---
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+We welcome contributions from developers, NGOs, and healthcare experts. For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## License
+
+MIT License – free to use with attribution.
 
 ---
 
@@ -164,5 +216,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 - Built by `abhi5404` with ❤️ using React, TypeScript, Firebase, and Tailwind CSS.
 - Logo displayed above is a placeholder. To use a custom brand mark, replace it with your own and/or add an image at `assets/pinkshield-logo.png` and reference it here.
-
-
